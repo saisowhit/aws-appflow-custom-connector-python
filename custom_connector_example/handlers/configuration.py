@@ -20,9 +20,9 @@ IS_SANDBOX_ACCOUNT = "is_sandbox_account"
 
 AUTH_URL = 'https://login.microsoftonline.com/6197edc2-01c0-4b24-8919-8f827d5c4dfa/oauth2/token'
 TOKEN_URL = 'https://login.microsoftonline.com/6197edc2-01c0-4b24-8919-8f827d5c4dfa/oauth2/token'
-SANDBOX_AUTH_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
-SANDBOX_TOKEN_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
-REFRESH_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
+SANDBOX_AUTH_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data'
+SANDBOX_TOKEN_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data'
+REFRESH_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data'
 REDIRECT_URL = 'https://login.microsoftonline.com/6197edc2-01c0-4b24-8919-8f827d5c4dfa/oauth2/token'
 SALESFORCE_USERINFO_URL_FORMAT = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data/RetailStores/'
 SALESFORCE_USERINFO_SANDBOX_URL_FORMAT = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data/RetailStores/'
