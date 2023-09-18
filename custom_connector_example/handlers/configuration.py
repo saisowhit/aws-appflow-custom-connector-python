@@ -18,14 +18,14 @@ API_VERSION = 'v51.0'
 API_VERSION_KEY = 'api_version'
 IS_SANDBOX_ACCOUNT = "is_sandbox_account"
 
-AUTH_URL = 'https://login.salesforce.com/services/oauth2/authorize'
-TOKEN_URL = 'https://login.salesforce.com/services/oauth2/token'
-SANDBOX_AUTH_URL = 'https://test.salesforce.com/services/oauth2/authorize'
-SANDBOX_TOKEN_URL = 'https://test.salesforce.com/services/oauth2/token'
-REFRESH_URL = 'https://login.salesforce.com/services/oauth2/token'
-REDIRECT_URL = 'https://login.salesforce.com'
-SALESFORCE_USERINFO_URL_FORMAT = 'https://login.salesforce.com/services/oauth2/userinfo'
-SALESFORCE_USERINFO_SANDBOX_URL_FORMAT = 'https://test.salesforce.com/services/oauth2/userinfo'
+AUTH_URL = 'https://login.microsoftonline.com/6197edc2-01c0-4b24-8919-8f827d5c4dfa/oauth2/token'
+TOKEN_URL = 'https://login.microsoftonline.com/6197edc2-01c0-4b24-8919-8f827d5c4dfa/oauth2/token'
+SANDBOX_AUTH_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data/RetailStores/'
+SANDBOX_TOKEN_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data/RetailStores'
+REFRESH_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data/RetailStores'
+REDIRECT_URL = 'https://login.microsoftonline.com/6197edc2-01c0-4b24-8919-8f827d5c4dfa/oauth2/token'
+SALESFORCE_USERINFO_URL_FORMAT = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data/RetailStores/'
+SALESFORCE_USERINFO_SANDBOX_URL_FORMAT = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data/RetailStores/'
 TRUE = 'true'
 
 def buildSalesforceUserInfoRequest(connector_runtime_settings: dict) -> str:
