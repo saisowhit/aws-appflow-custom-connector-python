@@ -11,7 +11,7 @@ from custom_connector_sdk.lambda_handler.handlers import ConfigurationHandler
 from custom_connector_example.handlers.client import HttpsClient, SalesforceResponse
 
 CONNECTOR_OWNER = 'SampleConnector'
-CONNECTOR_NAME = 'SamplePythonSalesforceConnector'
+CONNECTOR_NAME = 'SamplePythonDynamicsConnector'
 CONNECTOR_VERSION = '1.0'
 
 API_VERSION = 'v51.0'
