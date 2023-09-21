@@ -20,8 +20,10 @@ IS_SANDBOX_ACCOUNT = "is_sandbox_account"
 
 
 # AUTH_URL = 'https://login.microsoftonline.com/common/oauth2/authorize?resource=https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
-AUTH_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data/data/'
-TOKEN_URL = 'https://login.microsoftonline.com/6197edc2-01c0-4b24-8919-8f827d5c4dfa/oauth2/token'
+AUTH_URL = 'https://login.microsoftonline.com/common/oauth2/authorize?resource=https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com?CLIENT_ID='66827430-a267-471d-8a79-06940b2792a4'
+&GRANT_TYPE='client_credentials'&CLIENT_SECRET='Zn18Q~VwrI9orkNUHtbpweVmJcsZJpxK1~2Ebdfn'
+TOKEN_URL = 'https://login.microsoftonline.com/common/oauth2/authorize?resource=https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com?CLIENT_ID='66827430-a267-471d-8a79-06940b2792a4'
+&GRANT_TYPE='client_credentials'&CLIENT_SECRET='Zn18Q~VwrI9orkNUHtbpweVmJcsZJpxK1~2Ebdfn'
 SANDBOX_AUTH_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data/data/'
 SANDBOX_TOKEN_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data/data'
 REFRESH_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data/'
