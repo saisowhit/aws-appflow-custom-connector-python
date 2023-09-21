@@ -19,7 +19,7 @@ API_VERSION_KEY = 'api_version'
 IS_SANDBOX_ACCOUNT = "is_sandbox_account"
 
 
-# AUTH_URL = 'https://login.microsoftonline.com/common/oauth2/authorize?resource=https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
+# AUTH_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
 AUTH_URL = 'https://login.microsoftonline.com/common/oauth2/authorize?resource=https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
 TOKEN_URL ='https://login.microsoftonline.com/common/oauth2/authorize?resource=https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
 SANDBOX_AUTH_URL ='https://login.microsoftonline.com/common/oauth2/authorize?resource=https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
