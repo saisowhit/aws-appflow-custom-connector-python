@@ -22,12 +22,12 @@ IS_SANDBOX_ACCOUNT = "is_sandbox_account"
 # AUTH_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
 AUTH_URL = 'https://login.microsoftonline.com/common/oauth2/authorize?resource=https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
 TOKEN_URL ='https://login.microsoftonline.com/common/oauth2/authorize?resource=https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
-SANDBOX_AUTH_URL ='https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data'
-SANDBOX_TOKEN_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data'
-REFRESH_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data'
-REDIRECT_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data'
-SALESFORCE_USERINFO_URL_FORMAT = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data'
-SALESFORCE_USERINFO_SANDBOX_URL_FORMAT = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com/data'
+SANDBOX_AUTH_URL ='https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
+SANDBOX_TOKEN_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
+REFRESH_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
+REDIRECT_URL = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
+SALESFORCE_USERINFO_URL_FORMAT = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
+SALESFORCE_USERINFO_SANDBOX_URL_FORMAT = 'https://amtrakdev106c5dd72b7ca8401cdevaos.axcloud.dynamics.com'
 TRUE = 'true'
 
 def buildSalesforceUserInfoRequest(connector_runtime_settings: dict) -> str:
