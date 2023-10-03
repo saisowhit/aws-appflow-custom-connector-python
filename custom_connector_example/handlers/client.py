@@ -14,7 +14,8 @@ class HttpsClient:
         timeout = urllib3.Timeout(connect=CONNECTION_TIMEOUT_SECS, read=READ_TIMEOUT_SECS)
         self.https_client = urllib3.PoolManager(timeout=timeout)
         self.access_token = access_token
-        self.authorization_header = {'Authorization': 'Bearer ' + access_token}
+        self.Bearer=f'{self.access_token}'
+        self.authorization_header = {'Authorization': Bearer }
 
     def rest_get(self, request_uri: str) -> SalesforceResponse:
         headers = self.authorization_header
